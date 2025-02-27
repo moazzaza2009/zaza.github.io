@@ -1,0 +1,108 @@
+
+
+.project{
+    position: relative;
+scale:0.95;
+height: 100%;
+width: 100%;
+
+
+
+
+
+
+
+
+
+
+}
+.project img{
+    position: relative;
+ cursor: pointer;
+ transition: 1s;
+
+
+
+
+
+
+
+
+}
+.project img:hover{
+    transform: scale(1.09);
+    transition: all 0.5s ease-in-out;
+    filter: brightness(0.6);
+}   
+.project_text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex; 
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 45px;
+    color: aliceblue;
+    padding-inline: 0px;
+    z-index: 1000;
+    
+}
+.project_text_container{
+    position: relative;
+    height: 530px;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+ }
+ 
+ .project_text2{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex; 
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 55px;
+    color: aliceblue;
+    padding-inline: 0px;
+    
+}
+.home_text_container4{
+    position: relative;
+    height: 630px;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 60px;
+}
+.project_text_2{
+    position: relative;
+    left: 0;
+    font-family: 'syne', sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 15px;
+    color: rgba(141, 141, 141, 0.712);
+   
+
+
+
+
+}
+.project_text_container_2{
+    position: absolute;
+    top: 75%;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+ }  

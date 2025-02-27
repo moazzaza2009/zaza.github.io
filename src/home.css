@@ -1,0 +1,132 @@
+@import "tailwindcss";
+
+.top_part{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    background-color: transparent;
+    z-index: 1000;
+    mix-blend-mode: difference;
+    
+
+
+
+}
+.logo{
+
+    padding-left: 3px ;
+    padding-top: 13px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+   /* mix-blend-mode: difference; */
+    color: aliceblue;
+    z-index: 10000;
+
+
+
+
+}
+.logo_type{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: aliceblue;
+    cursor:  pointer;
+    /* mix-blend-mode: difference; */
+    z-index: 100000;
+
+}
+.links{
+    color: rgba(240, 248, 255, 0.808);
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    /* mix-blend-mode: difference; */
+    cursor: pointer;
+    padding-top: 13px;
+     padding-inline: 25px;
+
+
+
+
+
+}
+.home_text{
+    
+    display: flex; 
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 55px;
+    color: aliceblue;
+    padding-inline: 0px;
+    
+}
+.home_text_container{
+    position: absolute;
+    top: 30%;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    justify-content: start;
+    align-items: center;
+    padding-inline: 60px;
+    
+
+
+ }
+ .home_text_2{
+    position: relative;
+    left: 0;
+    font-family: 'syne', sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 18px;
+    color: rgba(240, 248, 255, 0.712);
+    padding-inline: 50px;
+
+
+
+
+}
+.home_text_container_2{
+    position: absolute;
+    top: 60%;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-top: 100px;
+ }  
+ section{
+    position: relative;
+    height: 900px;
+    width: 100vw;
+
+
+
+
+
+ }
+ .hero{
+    height: unset;
+
+
+
+
+ }
+ .reveal{
+    height: 100vh;
+
+
+
+
+ }
+ 

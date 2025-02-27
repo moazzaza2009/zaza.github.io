@@ -1,0 +1,252 @@
+
+
+.text_stag1{
+    position: relative;
+    padding-bottom: 40px;
+    left: 1%;
+    /* font-family: 'Red Hat Display', sans-serif; */
+    font-weight: 100;
+    font-style: normal;
+    font-size: 65px; 
+    z-index: 1000; 
+
+
+
+}
+.Stag1{
+   position: relative;
+   object-fit: cover;
+   width: 100vw;
+   height: 100vh;
+   z-index: 1;
+   padding: 0;
+   
+    
+   
+
+
+
+
+}
+.Stag_sections{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}
+.text_stag2{
+    color: rgb(114, 114, 114);
+    position: relative;
+    top: 40%;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 12px;
+    z-index: 1000;
+    padding-left: 10px;
+    font-family: 'Lexend Exa', sans-serif;
+    
+
+
+}
+.text1_c{
+    color: aliceblue;
+    position: relative;
+    top: 10%;
+    left: 5%;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    padding: 20px;
+    
+    
+
+
+
+
+    
+}
+.text_stag3{
+    color: rgb(218, 218, 218);
+    position: relative;
+    top: 43%;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 17px;
+    z-index: 1000;
+    padding-left: 10px;
+    
+
+}
+.text_stag4{
+    color: rgb(218, 218, 218);
+    position: relative;
+    top: 53%;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 27px;
+    z-index: 1000; 
+    padding-top: 40px;
+    padding-right: 15px ;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 300;
+   
+   
+
+    
+
+}
+.text_stag4c{
+    color: rgb(218, 218, 218);
+    position: relative;
+   padding-right:10px ;
+   left: 10px;
+   
+    padding-top: 90px;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 17px;
+    z-index: 1000;
+   
+    
+
+}
+.images{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+justify-content: center;
+align-items: center;
+padding-top: 150px;
+
+
+
+}
+
+.images img{
+    position: relative;
+   
+    object-fit: cover;
+    z-index: 1;
+    padding: 0;
+}
+@media screen and (max-width: 600px) {
+    .images{
+        scale: 1.4;
+        padding-top: 350px;
+        transform: translateX(50px);
+
+
+    }
+}
+@media screen and (max-width: 320px) {
+    .images{
+        scale: 1.4;
+        padding-top: 350px;
+        transform: translateX(50px);
+
+
+    }
+    .text_stag1{
+        font-size: 50px;
+    }
+    .text_stag2{
+        font-size: 10px;
+    }
+    .text_stag3{
+        font-size: 15px;
+    }
+    .text_stag4{
+        font-size:15px;
+        
+    }
+    .text_stag4c{
+        font-size: 15px;
+    }
+    .text1_c{
+        font-size: 15px;
+
+
+
+    }
+}
+.goal{
+    color:rgb(255, 255, 255);
+    position: relative; 
+    top: 80px;
+    left: 25px;
+    font-family: 'prompt', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 20px;
+   
+
+
+
+}
+.goal1{
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 13%;
+    left: 20px;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 33px;
+    z-index: 1000; 
+    padding-top: 40px;
+    padding-right: 25px ;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 300;
+   
+
+}
+.goal_section{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: flex-end;
+
+
+
+
+
+}
+.Stag12{
+    
+    position: relative;
+  
+
+
+
+}
+.Stag10{
+ position: relative;
+
+
+
+
+
+
+}
+.Stag12c{
+    position: relative;
+    height: 100%;
+
+
+
+
+}
+.Stagcc{
+    height: 100%;
+
+
+}
+.next-project{
+    cursor: pointer;
+}
+
