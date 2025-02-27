@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss(),
   ],
-  base: '/',
+  base: '/moazzaza2009.github.io',
  
 
 })
